@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <title>
+           Gladys Ann Malto's Portfolio
+        </title>
+    </head>
+
+    <body>
+        <nav class="topnav" id="portfolioTopnav" >
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#accomplishments">Accomplishments</a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="openMenu"><i class="fa fa-bars"></i></a>
+       </nav>
+       <h1 class="name">Gladys Ann Malto</h1>
+           <div id="aboutsection">
+               <img src="gladys.jpg" alignment="center" width="220" height="200" alt="Gladys Ann Malto" class="center"/>
+               <h2 id="about" class="heading uppercase">About</h2>
+               <p> I am an <strong>Integrated Science teacher</strong> at Philippine Science High School.
+                   I am developing an Integrated Science course that is free from traditional disciplinary
+                   boundaries-integrating concepts and principles from Biology, Chemistry, Physics, and Earth Science
+                   within unified and coherent learning sessions.
+                   My research interests mainly focus on improving Science teaching, including techniques
+                   such as <em>Flipped Classroom, Differentiated Instruction, and Community Based Learning</em>
+                   in Secondary Science.
+                   As a middle administrator, I monitor students with a variety of abilities, talents,
+                   and challenges, including mental health concerns. My advocacy for students' mental health,
+                   academic motivation, and well-being inspired me to research on this field as I pursue my Doctor of Education in QUT.
+               </p>
+           </div>
+           <div id="skillsection">
+               <h3 id="skill" class="uppercase">Skills</h3>
+                   <div class="skills">
+                       <h4>Research skills</h4>
+                           <ul class="list">
+                               <li>Conceptualizing</li>
+                               <li>Planning and Collaboration</li>
+                               <li>Quantitative Data Gathering</li>
+                           </ul>
+                   </div>
+                   <div class="skills">
+                       <h4>Interpersonal skills</h4>
+                           <ul class="list">
+                               <li>Teamwork and Engagement</li>
+                               <li>Reliable and a Good Listener</li>
+                               <li>Emphaty and Patience</li>
+                           </ul>
+                   </div>
+                   <div class="skills">
+                       <h4>Technical skills</h4>
+                           <ul class="list">
+                               <li>Project Management</li>
+                               <li>Handling Data</li>
+                               <li>Capacity for Teamwork</li>
+                           </ul>
+                   </div>
+           </div>
+           <div id="accomplishmentssection">
+               <h2 id="accomplishments" class="uppercase">Accomplishments</h2>
+                   <table class="table">
+                       <tr>
+                           <th class="col" scope="col">Publications</th>
+                           <th class="col" scope="col">Award</th>
+                           <th class="col" scope="col">Presentations</th>
+                       </tr>
+                       <tr>
+                           <td class="row">Content</td>
+                           <td class="row">Content</td>
+                           <td class="row">Content</td>
+                       </tr>
+                   </table>
+           </div>
+           <div id="contactsection">
+           <h2 id="contact" class="contactform uppercase">Contact</h2>
+               <a href="https://scholar.google.com.au/citations?user=0K3GK8sAAAAJ&hl=en" target="_blank">
+               <img src="google scholar.png" alt="google scholar logo" width="150" height="30" class="link"/></a>
+                <br> 
+               <a href="https://www.linkedin.com/in/gladys-ann-malto-b9706b277/?trk=public-profile-join-page" target="_blank">
+               <img src="linked in.png" alt="linked in logo" width="30" height="30" class="link"/></a>
+                   <br>
+                   <br>
+                   <form id="form">
+                       <label for="name">Name:</label>
+                       <br>
+                       <input type="text" id="name" name="name"required>
+                       <br>
+                       <br>
+                       <label for="email">Email:</label>
+                       <br>
+                       <input type="text" name="email"required id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                       <br>
+                       <br>
+                       <label for="mobile">Mobile (optional):</label>
+                       <br>
+                       <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10,16}">
+                       <br>
+                       <br>
+                       <label for="textarea">Leave your message below:</label>
+                       <br>
+                       <textarea id="textarea" name="textarea"required rows="5" cols="30"></textarea>
+                       <br>
+                       <br>
+                       <input type="submit" value="Submit">
+                   </form>
+           </div>
+           <br>
+           <br>
+           <main>
+               <footer class="footer">
+                   <p><strong><center>Gladys Ann Malto | Queensland University of Technology, 2023</center></strong></p>
+               </footer>
+           </main>
+           <script src="nav.js">
+           </script>
+           <script src="./quiz.js">
+           </script>
+
+    </body>
+</html>
